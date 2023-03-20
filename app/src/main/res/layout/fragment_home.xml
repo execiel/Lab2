@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="15sp"
+            >
+
+            <Button
+                android:id="@+id/newsletterButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klicka här för jobbigts veckliga nyhetsbrev"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senaste inläggen"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_margin="20sp"
+                android:textColor="@color/purple_500"
+                android:textSize="23sp"
+                />
+
+            <LinearLayout
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:layout_gravity="center_horizontal"
+                android:padding="20sp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Veckans uppdateringar"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis auctor elit sed vulputate mi sit amet mauris. Vitae semper quis lectus nulla. At elementum eu facilisis sed odio morbi quis commodo odio. Eget dolor morbi non arcu risus. Turpis egestas maecenas pharetra convallis posuere morbi leo. Tristique risus nec feugiat in fermentum posuere urna nec. Dui sapien eget mi proin sed libero enim. Viverra nam libero justo laoreet sit. Mauris in aliquam sem fringilla. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna.
+    Dui id ornare arcu odio. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Dignissim enim sit amet venenatis urna cursus. Semper risus in hendrerit gravida rutrum quisque. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Tempus egestas sed sed risus pretium. Sit amet volutpat consequat mauris nunc. Leo vel fringilla est ullamcorper eget nulla facilisi. Facilisis volutpat est velit egestas dui id ornare arcu. Suscipit adipiscing bibendum est ultricies integer quis auctor.
+    Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Elementum curabitur vitae nunc sed velit dignissim sodales. Arcu risus quis varius quam quisque id diam vel. Eros in cursus turpis massa tincidunt dui. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Fames ac turpis egestas integer eget aliquet nibh praesent. Neque convallis a cras semper auctor neque vitae. Aenean euismod elementum nisi quis. Auctor augue mauris augue neque gravida in fermentum. Adipiscing commodo elit at imperdiet.
+    Adipiscing enim eu turpis egestas pretium. Et tortor at risus viverra adipiscing at. Etiam tempor orci eu lobortis elementum nibh. Ridiculus mus mauris vitae ultricies. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Nisi quis eleifend quam adipiscing vitae. Diam donec adipiscing tristique risus nec feugiat in fermentum posuere. Amet nisl purus in mollis nunc sed id. Tincidunt praesent semper feugiat nibh sed. Sit amet nulla facilisi morbi tempus iaculis urna. Vel fringilla est ullamcorper eget nulla facilisi etiam."/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/purple_500"
+                android:textSize="23sp"
+                android:text="Kommentarer"
+                android:layout_margin="20sp"
+                />
+            <Button
+                android:id="@+id/navCommentButton"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_marginBottom="15sp"
+                android:text="lämna kommentar"
+                />
+            <LinearLayout
+                android:id="@+id/commentLayout"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:background="#fff"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ok skönt att höra!"
+                    android:layout_marginTop="20sp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="av: Johan"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Då vet man!"
+                    android:textSize="15sp"
+                    android:layout_marginTop="20sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="av: Josef"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kan man strunta i det?"
+                    android:textSize="15sp"
+                    android:layout_marginTop="20sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="av: Johanna"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ok."
+                    android:textSize="15sp"
+                    android:layout_marginTop="20sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="av: Jonathan"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
